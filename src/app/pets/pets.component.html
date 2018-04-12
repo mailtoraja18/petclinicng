@@ -1,0 +1,19 @@
+ <div class="ui three column grid">
+  <div *ngFor="let pet of pets" class="column"> 
+      <div class="ui card">
+      <div class="image">
+        <img src="assets/images/cat_luna.jpg">
+      </div>
+      <div class="content">
+        <a class="header">{{pet.name}}</a>
+        <div class="meta">
+          <span class="date">{{pet.status}} for adoption</span>
+          <span class="date">Zip : {{pet.zip}}</span>
+        </div>
+      </div>
+      <div class="extra content">
+        <a >more...</a>
+      </div>
+    </div>
+  </div>
+</div>    

@@ -3,16 +3,22 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { PetsComponent } from './pets/pets.component';
+
+import { PetService } from './pet.service';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    PetsComponent
   ],
   imports: [
     BrowserModule
   ],
-  providers: [],
+  providers: [
+    PetService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
