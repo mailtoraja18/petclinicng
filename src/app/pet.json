@@ -1,13 +1,11 @@
-import { Pet } from './pet';
-
-export const PETS : Pet[] =  [
+[
   {
     "category": "cat",
     "info": {
       "name": "Marbles",
       "photoUrls": [
         "todo"
-     ],
+      ],
       "tags": [
         {
           "description": "Domestic Short Hair"
@@ -25,7 +23,7 @@ export const PETS : Pet[] =  [
           "sex": "female"
         }
       ]
-    },  
+    },
     "status": "available",
     "zip": 19702,
     "contact": {
@@ -331,4 +329,4 @@ export const PETS : Pet[] =  [
       "address": "8731 Tennyson Way"
     }
   }
-];
+]
