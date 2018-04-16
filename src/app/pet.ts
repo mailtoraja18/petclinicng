@@ -1,4 +1,5 @@
 export interface Pet {
+  id: number;
   category: string;
   info: Info;
   status: string;
@@ -11,11 +12,8 @@ export interface Info {
   tags?: (TagsEntity)[] | null;
 }
 export interface TagsEntity {
-  description?: string | null;
-  health?: string | null;
-  gihw?: string | null;
-  age?: string | null;
-  sex?: string | null;
+  key?: string | null;
+  value?: string | null;
 }
 export interface Contact {
   phone: string;

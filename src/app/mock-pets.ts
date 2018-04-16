@@ -1,31 +1,37 @@
 import { Pet } from './pet';
 
-export const PETS : Pet[] =  [
+export const PETS: Pet[] =  [
   {
+    "id" : 1,
     "category": "cat",
     "info": {
       "name": "Marbles",
       "photoUrls": [
         "todo"
-     ],
+      ],
       "tags": [
         {
-          "description": "Domestic Short Hair"
+          "key": "description" ,
+          "value": "Domestic Short Hair"
         },
         {
-          "health": "Vaccinations up to date, spayed \/ neutered."
+          "key": "health",
+          "value": "Vaccinations up to date, spayed \/ neutered."
         },
         {
-          "gihw": "other cats"
+          "key": "good in home with",
+          "value": "other cats"
         },
         {
-          "age": "young"
+          "key": "age",
+          "value": "young"
         },
         {
-          "sex": "female"
+          "key": "sex",
+          "value": "female"
         }
       ]
-    },  
+    },
     "status": "available",
     "zip": 19702,
     "contact": {
@@ -35,6 +41,7 @@ export const PETS : Pet[] =  [
     }
   },
   {
+    "id" : 2,
     "category": "dog",
     "status": "Available",
     "info": {
@@ -44,19 +51,24 @@ export const PETS : Pet[] =  [
       ],
       "tags": [
         {
-          "description": "Domestic Short Hair"
+          "key": "description" ,
+          "value": "Domestic Short Hair"
         },
         {
-          "health": "Vaccinations up to date, spayed \/ neutered."
+          "key": "health",
+          "value": "Vaccinations up to date, spayed \/ neutered."
         },
         {
-          "gihw": "other cats"
+          "key": "good in home with",
+          "value": "other cats"
         },
         {
-          "age": "young"
+          "key": "age",
+          "value": "young"
         },
         {
-          "sex": "female"
+          "key": "sex",
+          "value": "female"
         }
       ]
     },
@@ -68,6 +80,7 @@ export const PETS : Pet[] =  [
     }
   },
   {
+    "id" : 3,
     "category": "dog",
     "status": "Available",
     "info": {
@@ -77,19 +90,24 @@ export const PETS : Pet[] =  [
       ],
       "tags": [
         {
-          "description": "Domestic Short Hair"
+          "key": "description" ,
+          "value": "Domestic Short Hair"
         },
         {
-          "health": "Spayed \/ neutered."
+          "key": "health",
+          "value": "Vaccinations up to date, spayed \/ neutered."
         },
         {
-          "gihw": "other cats"
+          "key": "good in home with",
+          "value": "other cats"
         },
         {
-          "age": "young"
+          "key": "age",
+          "value": "young"
         },
         {
-          "sex": "female"
+          "key": "sex",
+          "value": "female"
         }
       ]
     },
@@ -101,6 +119,7 @@ export const PETS : Pet[] =  [
     }
   },
   {
+    "id" : 4,
     "category": "dog",
     "status": "Available",
     "info": {
@@ -110,19 +129,24 @@ export const PETS : Pet[] =  [
       ],
       "tags": [
         {
-          "description": "Domestic Short Hair"
+          "key": "description" ,
+          "value": "Domestic Short Hair"
         },
         {
-          "health": "Vaccinations up to date, spayed \/ neutered."
+          "key": "health",
+          "value": "Vaccinations up to date, spayed \/ neutered."
         },
         {
-          "gihw": "other cats"
+          "key": "good in home with",
+          "value": "other cats"
         },
         {
-          "age": "young"
+          "key": "age",
+          "value": "young"
         },
         {
-          "sex": "female"
+          "key": "sex",
+          "value": "female"
         }
       ]
     },
@@ -134,6 +158,7 @@ export const PETS : Pet[] =  [
     }
   },
   {
+    "id" : 5,
     "category": "dog",
     "status": "Available",
     "info": {
@@ -143,19 +168,24 @@ export const PETS : Pet[] =  [
       ],
       "tags": [
         {
-          "description": "Domestic Short Hair"
+          "key": "description" ,
+          "value": "Domestic Short Hair"
         },
         {
-          "health": "Vaccinations up to date, spayed \/ neutered."
+          "key": "health",
+          "value": "Vaccinations up to date, spayed \/ neutered."
         },
         {
-          "gihw": "other cats"
+          "key": "good in home with",
+          "value": "other cats"
         },
         {
-          "age": "young"
+          "key": "age",
+          "value": "young"
         },
         {
-          "sex": "female"
+          "key": "sex",
+          "value": "female"
         }
       ]
     },
@@ -167,6 +197,7 @@ export const PETS : Pet[] =  [
     }
   },
   {
+    "id" : 6,
     "category": "cat",
     "status": "Available",
     "info": {
@@ -176,19 +207,24 @@ export const PETS : Pet[] =  [
       ],
       "tags": [
         {
-          "description": "Domestic Short Hair"
+          "key": "description" ,
+          "value": "Domestic Short Hair"
         },
         {
-          "health": "Vaccinations up to date, spayed \/ neutered."
+          "key": "health",
+          "value": "Vaccinations up to date, spayed \/ neutered."
         },
         {
-          "gihw": "other cats"
+          "key": "good in home with",
+          "value": "other cats"
         },
         {
-          "age": "young"
+          "key": "age",
+          "value": "young"
         },
         {
-          "sex": "female"
+          "key": "sex",
+          "value": "female"
         }
       ]
     },
@@ -200,6 +236,7 @@ export const PETS : Pet[] =  [
     }
   },
   {
+    "id" : 7,
     "category": "cat",
     "status": "Available",
     "info": {
@@ -209,19 +246,24 @@ export const PETS : Pet[] =  [
       ],
       "tags": [
         {
-          "description": "Domestic Short Hair"
+          "key": "description" ,
+          "value": "Domestic Short Hair"
         },
         {
-          "health": "Vaccinations up to date, spayed \/ neutered."
+          "key": "health",
+          "value": "Vaccinations up to date, spayed \/ neutered."
         },
         {
-          "gihw": "other cats"
+          "key": "good in home with",
+          "value": "other cats"
         },
         {
-          "age": "young"
+          "key": "age",
+          "value": "young"
         },
         {
-          "sex": "female"
+          "key": "sex",
+          "value": "female"
         }
       ]
     },
@@ -233,6 +275,7 @@ export const PETS : Pet[] =  [
     }
   },
   {
+    "id" : 8,
     "category": "cat",
     "status": "Available",
     "info": {
@@ -242,19 +285,24 @@ export const PETS : Pet[] =  [
       ],
       "tags": [
         {
-          "description": "Domestic Short Hair"
+          "key": "description" ,
+          "value": "Domestic Short Hair"
         },
         {
-          "health": "Vaccinations up to date, spayed \/ neutered."
+          "key": "health",
+          "value": "Vaccinations up to date, spayed \/ neutered."
         },
         {
-          "gihw": "other cats"
+          "key": "good in home with",
+          "value": "other cats"
         },
         {
-          "age": "young"
+          "key": "age",
+          "value": "young"
         },
         {
-          "sex": "female"
+          "key": "sex",
+          "value": "female"
         }
       ]
     },
@@ -266,6 +314,7 @@ export const PETS : Pet[] =  [
     }
   },
   {
+    "id" : 9,
     "category": "cat",
     "status": "Available",
     "info": {
@@ -275,19 +324,24 @@ export const PETS : Pet[] =  [
       ],
       "tags": [
         {
-          "description": "Domestic Short Hair"
+          "key": "description" ,
+          "value": "Domestic Short Hair"
         },
         {
-          "health": "Vaccinations up to date, spayed \/ neutered."
+          "key": "health",
+          "value": "Vaccinations up to date, spayed \/ neutered."
         },
         {
-          "gihw": "other cats"
+          "key": "good in home with",
+          "value": "other cats"
         },
         {
-          "age": "young"
+          "key": "age",
+          "value": "young"
         },
         {
-          "sex": "female"
+          "key": "sex",
+          "value": "female"
         }
       ]
     },
@@ -299,6 +353,7 @@ export const PETS : Pet[] =  [
     }
   },
   {
+    "id" : 10,
     "category": "cat",
     "status": "Available",
     "info": {
@@ -308,19 +363,24 @@ export const PETS : Pet[] =  [
       ],
       "tags": [
         {
-          "description": "Domestic Short Hair"
+          "key": "description" ,
+          "value": "Domestic Short Hair"
         },
         {
-          "health": "Vaccinations up to date, spayed \/ neutered."
+          "key": "health",
+          "value": "Vaccinations up to date, spayed \/ neutered."
         },
         {
-          "gihw": "other cats"
+          "key": "good in home with",
+          "value": "other cats"
         },
         {
-          "age": "young"
+          "key": "age",
+          "value": "young"
         },
         {
-          "sex": "female"
+          "key": "sex",
+          "value": "female"
         }
       ]
     },

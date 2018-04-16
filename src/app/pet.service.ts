@@ -7,7 +7,13 @@ import { PETS } from './mock-pets';
 @Injectable()
 export class PetService {
   constructor() { }
-  getPets() : Observable<Pet[]> {
-  		return of(PETS);
+  getPets(): Observable<Pet[]> {
+    return of(PETS);
+  }
+
+  getPet(id): Observable<Pet> {
+    return of(PETS.find(function(pet: Pet){
+      return pet.id === id;
+    }));
   }
 }

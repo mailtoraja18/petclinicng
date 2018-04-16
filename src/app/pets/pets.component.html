@@ -1,21 +1,21 @@
  <div class="ui three column grid">
-  <div *ngFor="let pet of pets" class="column"> 
+  <div *ngFor="let pet of pets" class="column">
       <div class="ui card">
-      <div class="image">
-        <img src="assets/images/cat_luna.jpg">
-      </div>
-      <div class="content">
-        <a class="header">{{pet.name}}</a>
-        <div class="meta">
-          <span class="date">{{pet.status}} for adoption</span>
+        <div class="image">
+          <img class="ui medium circular image" src="assets/images/cat_luna.jpg">
         </div>
-        <div class="meta">
-          <span class="date">Zip : {{pet.zip}}</span>
+        <div class="content">
+          <a class="header">{{pet.info.name}}</a>
+          <div class="meta">
+            <span class="date">{{pet.status}} for adoption</span>
+          </div>
+          <div class="meta">
+            <span class="date">Zip : {{pet.zip}}</span>
+          </div>
         </div>
-      </div>
-      <div class="extra content">
-        <a >more...</a>
-      </div>
+        <div class="extra content">
+          <a href="pets/{{pet.id}}">more...</a>
+        </div>
     </div>
   </div>
-</div>    
+</div>
