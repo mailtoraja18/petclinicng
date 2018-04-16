@@ -12,7 +12,7 @@ export class PetService {
   }
 
   getPet(id): Observable<Pet> {
-    return of(PETS.find(function(pet: Pet){
+    return of(PETS.find(function(pet: Pet) {
       return pet.id === id;
     }));
   }
